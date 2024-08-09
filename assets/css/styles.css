@@ -8,7 +8,7 @@
 }
 
 .asidebar{
-    background-color:grey;
+    background-color: #e8ebe4;
     grid-area: asidebar;
 }
 
@@ -20,11 +20,11 @@
 }
 
 .asidebar li {
-    padding: 5px 0; 
+    padding: 3px 0; 
 }
 
 .gallery{
-    background-color: grey;
+    background-color:  #e8ebe4;
     grid-area: gallery;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -39,6 +39,11 @@
     justify-content: space-between;
 }
 
+.card h3, .card p {
+    margin: 3px 0; 
+    padding: 0; 
+}
+
 .footer{
     background-color: white;
     color: black;
@@ -49,8 +54,8 @@
 }
 
 .card img{
-    width: 20vh;
-    height: 20vh;    
+    width: 90%;
+    height: 90%;    
     object-fit: cover;
 }
 
